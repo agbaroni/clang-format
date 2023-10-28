@@ -1,0 +1,195 @@
+# https://releases.llvm.org/16.0.0/tools/clang/docs/ClangFormatStyleOptions.html
+
+AccessModifierOffset: -2
+AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments:
+  AcrossComments: false
+  AcrossEmptyLines: false
+  Enabled: false
+AlignConsecutiveBitFields:
+  AcrossComments: false
+  AcrossEmptyLines: false
+  Enabled: true
+AlignConsecutiveDeclarations:
+  AcrossComments: false
+  AcrossEmptyLines: false
+  Enabled: false
+AlignConsecutiveMacros:
+  AcrossComments: false
+  AcrossEmptyLines: false
+  Enabled: true
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+AlignTrailingComments: Always
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+AttributeMacros: []
+BinPackArguments: false
+BinPackParameters: false
+BitFieldColonSpacing: After
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterControlStatement: Never
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakAfterAttributes: Leave
+BreakAfterJavaFieldAnnotations: true
+BreakArrays: false
+BreakBeforeBinaryOperators: All
+BreakBeforeConceptDeclarations: Always
+BreakBeforeInlineASMColon: OnlyMultiline
+BreakBeforeTernaryOperators: false
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterComma
+BreakStringLiterals: true
+ColumnLimit: 80
+CommentPragmas: ""
+CompactNamespaces: false
+ConstructorInitializerIndentWidth: 2
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: true
+DerivePointerAlignment: false
+DisableFormat: false
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: Always
+ExperimentalAutoDetectBinPacking: false
+FixNamespaceComments: false
+ForEachMacros: []
+IfMacros: []
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '<([^/.]+)>'
+    Priority: 1
+    CaseSensitive: false
+  - Regex: '<([[:alnum:]]\/.]+)>'
+    Priority: 2
+    CaseSensitive: false
+  - Regex: '"([[:alnum:]]\/.])+"'
+    Priority: 3
+    CaseSensitive: false
+IncludeIsMainRegex: ''
+IncludeIsMainSourceRegex: ''
+IndentAccessModifiers: false
+IndentCaseBlocks: false
+IndentCaseLabels: true
+IndentExternBlock: Indent
+IndentGotoLabels: false
+IndentPPDirectives: None
+IndentRequiresClause: false
+IndentWidth: 4
+IndentWrappedFunctionNames: true
+InsertBraces: true
+InsertNewlineAtEOF: true
+InsertTrailingCommas: None
+IntegerLiteralSeparator:
+  Binary: 4
+  Decimal: 3
+  Hex: 2
+JavaImportGroups: []
+JavaScriptQuotes: Single
+JavaScriptWrapImports: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+LambdaBodyIndentation: OuterScope
+Language: Cpp
+LineEnding: LF
+MacroBlockBegin: ''
+MacroBlockEnd: ''
+MaxEmptyLinesToKeep: 2147483647
+NamespaceIndentation: All
+NamespaceMacros: []
+ObjCBinPackProtocolList: Never
+ObjCBlockIndentWidth: 4
+ObjCBreakBeforeNestedBlockParam: true
+ObjCSpaceAfterProperty: false
+ObjCSpaceBeforeProtocolList: true
+PPIndentWidth: 0
+PackConstructorInitializers: CurrentLine
+PenaltyBreakAssignment: 0
+PenaltyBreakBeforeFirstCallParameter: 0
+PenaltyBreakComment: 0
+PenaltyBreakFirstLessLess: 0
+PenaltyBreakOpenParenthesis: 0
+PenaltyBreakString: 0
+PenaltyBreakTemplateDeclaration: 0
+PenaltyExcessCharacter: 0
+PenaltyIndentedWhitespace: 0
+PenaltyReturnTypeOnItsOwnLine: 0
+PointerAlignment: Left
+QualifierAlignment: Left
+# QualifierOrder:
+#   - 'static'
+#   - 'friend'
+#   - 'inline'
+#   - 'volatile'
+#   - 'const'
+#   - 'type'
+#   - 'restrict'
+RawStringFormats: []
+ReferenceAlignment: Left
+ReflowComments: true
+RemoveBracesLLVM: false
+RemoveSemicolon: true
+RequiresClausePosition: OwnLine
+RequiresExpressionIndentation: OuterScope
+SeparateDefinitionBlocks: Always
+ShortNamespaceLines: 1
+SortIncludes: CaseSensitive
+SortJavaStaticImport: After
+SortUsingDeclarations: LexicographicNumeric
+SpaceAfterCStyleCast: true
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceAroundPointerQualifiers: Default
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: Never
+SpaceBeforeParensOptions: {}
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeSquareBrackets: false
+SpaceInEmptyBlock: false
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 4
+SpacesInAngles: Never
+SpacesInCStyleCastParentheses: false
+SpacesInConditionalStatement: false
+SpacesInContainerLiterals: false
+SpacesInLineCommentPrefix:
+  Maximum: -1
+  Minimum: 1
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+Standard: c++20
+StatementAttributeLikeMacros: []
+StatementMacros: []
+TabWidth: 4
+TypenameMacros: []
+UseTab: Never
+WhitespaceSensitiveMacros: []
